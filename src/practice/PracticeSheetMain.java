@@ -1,20 +1,19 @@
 package practice;
 
 public class PracticeSheetMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-//        System.out.println("program startsss");
-//        String a = "456";
-//        int x = Integer.parseInt(a);
-//        int  y = 30;
-//
-//        try {
-//            System.out.println(y/0);
-//        }
-//        catch (){
-//
-//        }
-//        System.out.println(y/0);
-//        System.out.println("program endsssss");
+        practice1.a = 300;
+
+        PracticeSheet obj1 = new PracticeSheet();
+        obj1.b = 400;
+        System.out.println(obj1.m1());
+        System.out.println(obj1.m1(50));
+
+
+        PracticeSheet obj2 = new PracticeSheet();
+        obj1.b = 500;
+        System.out.println(obj1.m1());
+        System.out.println(obj1.m1(50));
     }
 }
