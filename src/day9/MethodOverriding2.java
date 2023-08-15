@@ -25,11 +25,11 @@ class KOTAK extends MethodOverriding1{
 public class MethodOverriding2 {
     public static void main(String[] args) {
 
-//        ICICI heirarchy1 = new ICICI();
-//        heirarchy1.x= 10;
-//        heirarchy1.z= 20;
-//        System.out.println(heirarchy1.BankInterest());
-//        System.out.println(heirarchy1.iciciInterest());
+        ICICI heirarchy1 = new ICICI();
+        heirarchy1.x= 10;
+        heirarchy1.z= 20;
+        System.out.println(heirarchy1.BankInterest());
+        System.out.println(heirarchy1.iciciInterest());
 
 
 

@@ -4,6 +4,7 @@ public class InterfaceMain implements InterfaceExample2 , InterfaceExample3 {
     public void m2(){                 // example of  multiple inheritance & interface concept
         System.out.println(b);
     }
+//    int a = 33;
     public void m1(){
         System.out.println(a);
     }

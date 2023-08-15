@@ -1,12 +1,19 @@
 package practice;
 
 public class PracticeSheetMain {
+    public static void main(String[] args) throws InterruptedException {
 
-    public static void main(String[] args) {
+        practice1.a = 300;
 
-        PracticeSheet emp = new PracticeSheet();
-        emp.empt(101, "simla", "eng");
-        emp.display();
+        PracticeSheet obj1 = new PracticeSheet();
+        obj1.b = 400;
+        System.out.println(obj1.m1());
+        System.out.println(obj1.m1(50));
 
+
+        PracticeSheet obj2 = new PracticeSheet();
+        obj1.b = 500;
+        System.out.println(obj1.m1());
+        System.out.println(obj1.m1(50));
     }
 }

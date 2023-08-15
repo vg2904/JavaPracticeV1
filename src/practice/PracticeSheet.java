@@ -1,26 +1,17 @@
 package practice;
-
-public class PracticeSheet {
-
-    int emp_id;
-    String emp_name;
-    String dep;
-
-    void empt(int id , String name , String dept ) {
-        emp_id = id;
-        emp_name = name;
-        dep  = dept;
+class practice1{
+    static int a = 100;
+    int m1(){
+        return a;
+    }
+}
+public class PracticeSheet extends practice1{
+    int b = 200;
+    int m1(int c){
+        return  b+c;
     }
 
-    void display(){
-        System.out.println(emp_id);
-        System.out.println(emp_name);
-        System.out.println(dep);
-    }
-
-
-
-
+    //dwjhdhwhdhw
 
 
 }
